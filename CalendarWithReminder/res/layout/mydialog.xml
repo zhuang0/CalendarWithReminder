@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#99ffffff"
+    android:orientation="vertical">
+    
+    <RelativeLayout  android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton android:layout_width="43dip"
+	    android:layout_height="43dip"
+	    android:background="@drawable/jia"
+	    android:layout_alignParentLeft="true"
+	    android:id="@+id/img_creat"
+	    android:paddingRight="10dip"
+        android:paddingTop="10dip"/>
+        <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00bfff"
+        android:textSize="30dip"
+        android:layout_centerInParent="true"
+        android:text="10日"
+        android:id="@+id/day_tv"/>
+         <ImageButton
+          android:layout_width="43dip"
+          android:layout_height="43dip"
+          android:background="@drawable/clear_ico"
+          android:layout_alignParentRight="true"
+          android:paddingRight="10dip"
+          android:paddingTop="10dip"
+          android:layout_gravity="right"
+          android:id="@+id/img_close"/>
+    </RelativeLayout>
+    <TableLayout android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_tab"
+        android:orientation="vertical">
+         <TableRow android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"></TableRow>
+    </TableLayout>
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="39dip"></LinearLayout>
+</LinearLayout>
